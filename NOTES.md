@@ -2,19 +2,21 @@
 
 
 ### What do java backend engineers do?
-  *Build java backends using java to talk to databases.
-  *Supplying apis for people to consume. Mostly other devs.
+- Build java backends using java to talk to databases.
+- Supplying apis for people to consume. Mostly other devs.
 
 ### What is the Three tier architecture?
 
 The three tier architecture is way to organize work.  
 Front end tier, mid tier (you), database.
 
-Browser talks to cdn (content delivery network) - distributed servers that delivers content based on geographic location. Edge server has a copy of the content from the origin server. 
+### What is the CDN (content delivery network) ?
+- A CDN is a group of distributed servers that delivers content based on geographic location. 
+- There is an origin server that has the original content and edge servers that has a copy of the content. 
 
-A browser sends a request to the DNS server to resolve the domain name of the url to the corresponding IP address. DNS is an alias converting URL to an IP. 
-
-DNS server returns the IP address of the closest CDN edge server to user’s location.
+### How does a DNS request work? 
+- A browser sends a request to the DNS server to resolve the domain name of the url to the corresponding IP address. DNS is an alias converting URL to an IP. 
+- DNS server returns the IP address of the closest CDN edge server to user’s location.
 
 Browser talks to the backend server and that talks to the database
 
